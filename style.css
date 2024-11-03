@@ -1,0 +1,34 @@
+h1, h2, h3, h4, h5, h6,a {
+font-family: 'Ovo', serif;
+
+}
+.navfont{
+    font-family: "Poppins", sans-serif;
+}
+.bound{
+    width: fit-content;
+
+    overflow: hidden;
+}
+.bound .boundingelem{
+    transform: translateY(100%);
+}
+.hero{
+    background-image: url('./img/hero-bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+/* background-position: center; */
+
+}
+@media screen and (max-width: 1024px){
+  .about-section{
+    padding: 20px;
+  
+  }
+    
+}
+@media screen and (max-width:1200px) {
+    .navbr{
+        display: none;
+    }
+}
